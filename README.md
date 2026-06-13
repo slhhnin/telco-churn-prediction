@@ -23,14 +23,14 @@ This repository provides an end-to-end Machine Learning solution to detect high-
 
     **On macOS/Linux:**
     ```bash
-    python3 -m venv venv
+    python3 -m venv yourenv
     source venv/bin/activate
     ```
 
     **On Windows (Command Prompt/PowerShell):**
     ```bash
-    python -m venv venv
-    venv\Scripts\activate
+    python -m venv yourenv
+    yourenv\Scripts\activate
     ```
 
 3. **Install Dependencies:**
@@ -77,5 +77,3 @@ This repository provides an end-to-end Machine Learning solution to detect high-
             ```Bash
             curl -X 'POST' 'http://127.0.0.1:8000/predict' -H 'accept: application/json' -H 'Content-Type: application/json' -d @sample_request.json
             ```
-
-            SSH
